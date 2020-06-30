@@ -23,7 +23,7 @@ const Search = () => {
 
     return (
         <section className={styles.search}>
-            <input onKeyDown={handleKeyDown} className={styles.search_bar} type="text" ref={input} placeholder="Enter title"/>
+            <input onKeyDown={handleKeyDown} className={styles.search_bar} type="text" ref={input} placeholder="Search for a movie..."/>
             <button onClick={searchForMovies}>Search</button>
         </section>
     )
