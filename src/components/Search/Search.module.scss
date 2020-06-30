@@ -1,0 +1,22 @@
+.search {
+    padding: 40px;
+    border-bottom: 1px solid #dedede;
+    position: sticky;
+    top: 0;
+    background: #242626;
+
+    .search_bar {
+        background: #3a3b3c;
+        height: 30px;
+        width: 150px;
+        border-style: none;
+        color: #a3a7ab;
+        border-radius: 40px;
+        padding: 5px 10px;
+        margin-right: 20px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

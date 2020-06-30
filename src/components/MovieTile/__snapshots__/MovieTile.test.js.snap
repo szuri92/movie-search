@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieTile renders correctly 1`] = `
+<div
+  className="movie_tile_box"
+  onClick={[Function]}
+>
+  <Image
+    src="poster_path"
+  />
+  <h1
+    className="title"
+  />
+  <div
+    className="overview"
+  >
+    overview
+  </div>
+</div>
+`;

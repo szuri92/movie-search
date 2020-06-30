@@ -1,0 +1,7 @@
+.main_view {
+    padding: 20px 0;
+    display: grid;
+    grid-gap: 15px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 365px);
+}

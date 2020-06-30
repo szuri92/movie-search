@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDetails renders correctly 1`] = `
+<ErrorBoundary>
+  <section
+    className="detail_page"
+  >
+    <div>
+      <span
+        className="goBack"
+        onClick={[Function]}
+      >
+         ◄ Back
+      </span>
+      <h1 />
+      <h2>
+         
+      </h2>
+      <h2 />
+      <div
+        className="overview"
+      >
+        overview
+      </div>
+    </div>
+    <Image
+      src="poster_path"
+    />
+  </section>
+</ErrorBoundary>
+`;
+
+exports[`MovieDetails renders correctly 2`] = `
+<ErrorBoundary>
+  <section
+    className="detail_page"
+  >
+    <div>
+      <div
+        onClick={[Function]}
+      >
+         ◄ Back
+      </div>
+      <h1 />
+      <h2>
+         
+      </h2>
+      <h2 />
+      <div
+        className="overview"
+      >
+        overview
+      </div>
+    </div>
+    <Image
+      src="poster_path"
+    />
+  </section>
+</ErrorBoundary>
+`;
