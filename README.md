@@ -1,8 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+Install:
+
+### `npm install`
+
+If you're having trouble installing node-sass
+
+### run `npm install --save-dev  --unsafe-perm node-sass`
+
+1. reate an api key at https://www.themoviedb.org/
+2. Update .env file with you apiKey REACT_APP_API_KEY=<your_api_key>
 
 ### `npm start`
 

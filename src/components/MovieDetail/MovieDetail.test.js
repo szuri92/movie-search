@@ -30,7 +30,7 @@ describe('MovieDetails', () => {
         expect(shallowToJson(tree)).toMatchSnapshot()
     })
 
-    it('renders correctly', () => {
+    it('should call callback on click', () => {
         const tree = shallow(<MovieDetail/>) 
         const button = tree.find('span')
         button.simulate('click')
